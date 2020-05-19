@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Plink"
+Date "2020-05-19"
+Rev "v1.0"
+Comp "(C) Mark Olsson <mark@markolsson.se>"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -538,13 +538,11 @@ $EndComp
 Wire Wire Line
 	1700 5600 1700 5700
 Wire Wire Line
-	1100 2800 1100 2850
+	1100 2800 1100 2825
 Wire Wire Line
 	1400 2400 2000 2400
 Wire Wire Line
 	1400 2500 2000 2500
-NoConn ~ 1400 2600
-NoConn ~ 1000 2800
 $Comp
 L Device:R_Small R?
 U 1 1 5ED9C532
@@ -1200,4 +1198,26 @@ NoConn ~ 6650 3800
 NoConn ~ 6650 3700
 Wire Wire Line
 	5650 1975 5950 1975
+Wire Wire Line
+	1000 2800 1000 2825
+Wire Wire Line
+	1000 2825 1100 2825
+Connection ~ 1100 2825
+Wire Wire Line
+	1100 2825 1100 2850
+Wire Wire Line
+	1100 2825 1400 2825
+Wire Wire Line
+	1400 2825 1400 2600
+$Comp
+L 00_Graphics:Graphic X2
+U 1 1 5ECAB4E1
+P 1075 7575
+F 0 "X2" H 975 7675 50  0001 L BNN
+F 1 "Narwahl" H 1155 7575 50  0000 L CNN
+F 2 "00_Graphics:Narwahl" H 975 7325 50  0001 L BNN
+F 3 "" H 875 7025 50  0001 L BNN
+	1    1075 7575
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

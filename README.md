@@ -1,4 +1,4 @@
-# Debug board
+# Plink Debug Board
 I need to write a description for this!
 
 ## Schematic

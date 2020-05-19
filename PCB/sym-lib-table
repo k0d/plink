@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name PollyProto-rescue)(type Legacy)(uri /Users/mark/src/PollyProto/Hardware/PollyProto-rescue.lib)(options "")(descr ""))
-  (lib (name PyTestRigCore-rescue)(type Legacy)(uri /Users/mark/src/PyTestRig/PyTestRigCore/PyTestRigCore-rescue.lib)(options "")(descr ""))
-)
