@@ -1,4 +1,4 @@
-update=2020 June 06, Saturday 19:41:04
+update=2020 June 06, Saturday 19:56:59
 version=1
 last_client=kicad
 [cvpcb]
@@ -242,8 +242,8 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
+PageLayoutDescrFile=/Volumes/Data/PCBDesign/Narwo Page Layout.kicad_wks
+PlotDirectoryName=../
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
